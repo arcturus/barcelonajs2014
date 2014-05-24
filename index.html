@@ -1,0 +1,1170 @@
+<!DOCTYPE HTML>
+<!-- <html lang="en-US"> -->
+<html lang="en-US" class="nonumbers fade">
+<!--
+  ^ a class of "fade" makes slides fade smoothly into one another
+ -->
+<!-- <html lang="en-US" class="nonumbers"> -->
+<!--
+  If you want no numbers on the slides add a "nonumbers" class
+  to the HTML element.
+  Adding a class of "fade" will make slides fade into another.
+-->
+<head>
+  <meta charset="UTF-8">
+  <title>Mobile web: pushing hard for browsers modernisation</title>
+<!--
+  If you upload your slides to the web, ensure that you have
+  a good title - this shows up in search results and social
+  media links
+ -->
+  <meta name="viewport" content="width=device-width, user-scalable=yes">
+  <link rel="stylesheet" href="themes/mozilla/styles/style.css">
+</head>
+<body class="list">
+  <header class="caption">
+    <h1>Mobile web: pushing hard for browsers evolution</h1>
+    <p class="footer">
+      Francisco Jordano,
+      <a href="http://twitter.com/mepartoconmigo">@mepartoconmigo</a><br/>
+      <a href="mailto:francisco@mozilla.com">francisco@mozilla.com</a>
+    </p>
+  </header>
+  <aside class="talkdescription">
+    <p>This slide deck is using the shower system - roll over the previews to see the notes and click any slide to go into presentation mode. Then use keys to navigate. <button onclick="goFullScreen()">Go fullscreen</button></p>
+    <p class="abstract">
+      <strong>Abstract: </strong>
+       The web is the platform, it has been evolving since it was created and the mobile environment is helping and forcing this evolution even faster!
+    </p>
+  </aside>
+
+<!--
+    Simply copy the whole block for each slide you want.
+  Special slides get extra classes. Each slide needs an ID
+  to allow for bookmarking and target jumping.
+-->
+
+  <div id="cover" class="slide"><div>
+    <section>
+      <header>
+        <h2>Mobile web</h2>
+        <h3>Pushing hard for browsers evolution</h3>
+      </header>
+      <img style="padding-top: 100px" src="pictures/fxos/firefoxos.png"
+           class="middle" height="400"
+           alt="High-five at the Mozilla Festival!">
+      <small class="byline">
+        Francisco Jordano, @mepartoconmigo, barcelonajs, Barcelona, 24/05/2014
+      </small>
+      <footer class="notes">
+        Hello, thanks, a bit of history, my experience on the mobile web, and how its evolving
+      </footer>
+    </section>
+  </div></div>
+
+<!-- end slide block -->
+
+  <div id="callout" class="slide"><div>
+    <section>
+      <header>
+        <h2>In the begining there was silence and darkness</h2>
+      </header>
+      <div id="player" class="middle" style="margin-top: 50px;"></div>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="madness" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Coder madness!</h2>
+      </header>
+      <img src="pictures/Man_yelling_at_computer.jpg"
+           class="middle"
+           alt="Firefox OS phones">
+      <small class="credits">
+        <a href="http://theteenprogrammer.blogspot.com">
+          http://theteenprogrammer.blogspot.com
+        </a>
+      </small>
+      <footer class="notes">
+        Old times in Y!, Resources needed, pain in the ass, etc.
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="superhtml5" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>HTML5 to the rescue</h2>
+      </header>
+      <img src="pictures/HTML5-Super-Logo.jpg"
+           class="middle"
+           alt="HTML5 to the rescue">
+      <small class="credits">
+        <a href="http://www.appgeo.com/blog/html5-geospatial-past-present-and-future/">
+          AppGeo
+        </a>
+      </small>
+      <footer class="notes">
+        New technology, lots of promises, we will replace flash ...
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="broken" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>... some broken promises</h2>
+      </header>
+      <img src="pictures/Broken_Promises.jpeg"
+           class="middle"
+           alt="Broken promises">
+      <small class="credits">
+        <a href="https://hacks.mozilla.org/2012/10/broken-promises-of-html5-and-whats-next-a-presentation-at-html5devconf/#comments">
+          Christian Heilmann
+        </a>
+      </small>
+      <footer class="notes">
+        still some problems
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="evolution" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>... evolving step by step</h2>
+      </header>
+      <img src="pictures/yui-evolutions.jpg"
+           class="middle"
+           alt="html5 evolving">
+      <small class="credits">
+        <a href="http://icant.co.uk/talks/h5/html5devcon.html?full#evolution">
+          Christian Heilmann
+        </a>
+      </small>
+      <footer class="notes">
+        still some problems
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="whymobile" class="slide"><div>
+    <section>
+      <header>
+        <h2>Why mobile is so important?</h2>
+      </header>
+      <img src="pictures/Millions-of-People.jpg"
+           class="left"
+           alt="Millions of users">
+
+      <ul>
+        <li>Mobile devices invaded our lives</li>
+        <li>First time on the internet happening on phones</li>
+        <li>2 billion people without computer or smartphone</li>
+      </ul>
+
+      <small class="credits">
+      </small>
+      <footer class="notes">
+        Mobile will be bigger than desktop, also, what's the difference? Is not a mobile a computer anyway? And it's reaching people that won't even have a computer.
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="try_things" class="slide"><div>
+    <section>
+      <header>
+        <h2>Quote</h2>
+      </header>
+      <blockquote style="margin-top: 180px">
+        <p>Life is trying things to see if they work.</p>
+        <p class="byline">Ray Bradbury, american science-fiction writer, 1920</p>
+      </blockquote>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="why_html5" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>HTML5? Why not?</h2>
+      </header>
+      <footer class="notes">
+        in 2012 technology was mature enough to build a whole os, and to push for the evolution to build the part of the os that were not ready cause of current tech status
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="ffos" class="slide cover h"><div>
+    <section>
+      <img src="pictures/url.jpg"
+           class="middle"
+           alt="Firefox OS">
+      <small class="credits">
+      </small>
+      <footer class="notes">
+
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="ffos_layers" class="slide cover h"><div>
+    <section>
+      <img src="pictures/Firefox_Layers.jpg"
+           class="middle"
+           alt="Firefox OS">
+      <small class="credits">
+      </small>
+      <footer class="notes">
+        everything is html + js + css, with new set of APIs to control new hardware elements, functionalities (push), etc
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="tarako" class="slide cover h"><div>
+    <section>
+      <img src="pictures/tarako.jpg"
+           class="middle"
+           alt="Firefox OS Tarako">
+      <footer class="notes">
+        We can bring the Web to anyone, even to people with not so many resources
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="ffos_evolution" class="slide cover h"><div>
+    <section>
+      <header>
+        <h2>To infinity and beyond!</h2>
+      </header>
+      <img src="pictures/templatedemos/phones.jpg"
+           class="middle"
+           alt="Firefox OS Phones">
+      <small class="credits">
+        photo Christian Heilmann
+      </small>
+      <footer class="notes">
+        But, how we get there, and how we plan to go beyond? Is not just about better coding, is also about a better platform that give us the tools to improve things. We need to use the latest of the latest technology
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="whatsnext" class="slide oneline"><div>
+    <section>
+      <header>
+        <h2>What cool things are awaiting for me?</h2>
+      </header>
+      <footer class="notes">
+        What kind of new apis, tools and paradigms will be used in the web, and how Firefox OS has to, already, use them!
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="keep_promsies" class="slide cover h"><div>
+    <section>
+      <header>
+        <h2>Promises! (but the ones you keep)</h2>
+      </header>
+      <img src="pictures/promises.jpg"
+           class="middle"
+           alt="Javascript promises">
+      <small class="credits">
+        <a href="http://yesler.com/blog/content-marketing/promises-worth-keeping-making-content-marketing-actionable">
+          Yesler
+        </a>
+      </small>
+      <footer class="notes">
+        But, how we get there, and how we plan to go beyond? Is not just about better coding, is also about a better platform that give us the tools to improve things. We need to use the latest of the latest technology
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="promises_code" class="slide"><div>
+   <section>
+     <header>
+       <h2>promises code</h2>
+     </header>
+       <pre>
+       <code>var p1 = new Promise(function(resolve, reject) {...});</code>
+       <code>var p2 = new Promise(function(resolve, reject) {...});</code>
+       <code>p1.resolve('value');</code>
+       <code>p2.reject('reason');</code>
+       <code>Promise.all([p1, p2]).then(function(values) { ...});</code>
+       <code>Promise.race([p1, p2]).then(function(firstResponse) { ...});</code>
+       </pre>
+     <footer class="notes">
+     </footer>
+   </section>
+ </div></div>
+
+ <div id="push_notifications" class="slide cover w"><div>
+   <section>
+     <header>
+       <h2>Push Notifications</h2>
+     </header>
+     <img src="pictures/PushNotifications.jpg"
+          class="middle"
+          alt="Push Notifications">
+     <small class="credits">
+       <a href="http://developer.sonymobile.com/knowledge-base/external-resources/push-notification/">
+         Sony Mobile
+       </a>
+     </small>
+     <footer class="notes">
+       Important feature for mobile devices, completely new in the web, fragmented
+     </footer>
+   </section>
+ </div></div>
+
+ <div id="push_w3c" class="slide"><div>
+   <section>
+     <header>
+       <h2>Push: current situation</h2>
+     </header>
+     <img src="pictures/W3C.jpg"
+          class="right"
+          alt="W3C">
+
+     <ul>
+       <li>Mozilla: Simple Push</li>
+       <li>Google: Cloud Messaging</li>
+       <li>Apple: Safari Push notifications</li>
+     </ul>
+
+        <article>
+         Fortunately, there are progress to use the same API, it's being designed today!
+         <br/>
+         <a href="https://dvcs.w3.org/hg/push/raw-file/tip/index.html">W3C working draft</a>
+       </article>
+
+     <footer class="notes">
+       Introduce yourself, who you are and why you are the person to give that talk
+     </footer>
+   </section>
+ </div></div>
+
+ <div id="web_audio" class="slide cover w"><div>
+   <section>
+     <header>
+       <h2>Web Audio</h2>
+     </header>
+     <img src="pictures/audio.gif"
+          class="middle"
+          alt="Web Audio">
+     <small class="credits">
+
+     </small>
+     <footer class="notes">
+       Audio is important in Firefox OS, games, music, and the phone itself, channels, automatic volume adjustement, etc.
+     </footer>
+   </section>
+ </div></div>
+
+ <div id="css3" class="slide"><div>
+   <section>
+     <header>
+       <h2>... not just javascript</h2>
+     </header>
+     <img src="pictures/css3.jpg"
+          class="left"
+          alt="W3C">
+
+     <ul>
+       <li>position: sticky</li>
+       <li>wil-change: opacity</li>
+     </ul>
+     <ul>
+       css variables
+     </ul>
+
+     <footer class="notes">
+       Improvements are not just in JS, also the rendering engine gets updated and we experiment with latest technologies.
+     </footer>
+   </section>
+ </div></div>
+
+ <div id="wc" class="slide cover h"><div>
+   <section>
+     <img src="pictures/wc.png"
+          class="middle"
+          alt="wc" style="background:#E5E3DB">
+     <small class="credits">
+
+     </small>
+     <footer class="notes">
+       New kid on the block, a technology to explode in 2014 and we are already using it.
+     </footer>
+   </section>
+ </div></div>
+
+ <div id="wc_support" class="slide"><div>
+   <section>
+     <header>
+       <h2>WebComponents in FirefoxOS</h2>
+     </header>
+     <img src="pictures/headers.png"
+          class="right"
+          alt="headers" style="margin-top: -40px">
+
+     <ul style="padding-top: 60px">
+       <li>From building blocks to web components</li>
+       <li>Native support in Firefox OS</li>
+       <li>We are already using them</li>
+     </ul>
+
+     <footer class="notes">
+       Improvements are not just in JS, also the rendering engine gets updated and we experiment with latest technologies.
+     </footer>
+   </section>
+ </div></div>
+
+ <div id="sw1" class="slide cover w"><div>
+   <section>
+     <header>
+       <h2>Service Workers</h2>
+     </header>
+     <img src="pictures/sw.gif"
+          class="middle"
+          alt="Service Workers">
+     <footer class="notes">
+       ServiceWorkers are a new feature for the web platform that lets a script persistently cache resources and handle all resource requests for an application -- even when the network isn't available. Putting it all together, ServiceWorkers give you a way to build applications that work offline.
+     </footer>
+   </section>
+ </div></div>
+
+ <div id="sw2" class="slide"><div>
+  <section>
+    <header>
+      <h2>ServiceWorkers bootstraping</h2>
+    </header>
+      <pre>
+      <code>navigator.serviceWorker.register("/serviceworker.js").then(</code>
+      <code>  function(serviceWorker) {</code>
+      <code>    console.log("success!");</code>
+      <code>    serviceWorker.postMessage("Hello from installed page");</code>
+      <code>  },</code>
+      <code>  function(why) {</code>
+      <code>    console.error("Installing the worker failed!:", why);</code>
+      <code>  }</code>
+      <code>);</code>
+      </pre>
+    <footer class="notes">
+      bootstraping, already working with promises
+    </footer>
+  </section>
+</div></div>
+
+<div id="sw3" class="slide"><div>
+ <section>
+   <header>
+     <h2>ServiceWorkers fetching resources</h2>
+   </header>
+     <pre>
+     <code>// serviceworker.js</code>
+     <code>this.addEventListener("fetch", function(e) {</code>
+     <code>  var url = e.request.url;</code>
+     <code>  if (url == '/store.html') { </code>
+     <code>    e.respondWith(new Response({</code>
+     <code>      statusCode: 200,</code>
+     <code>      body: '{ ... }'</code>
+     <code>    });</code>
+     <code>  }</code>
+     <code>});</code>
+     </pre>
+   <footer class="notes">
+     It's not declarative as it was APPCACHE, but programative with rich api
+   </footer>
+ </section>
+</div></div>
+
+  <div id="sw4" class="slide"><div>
+   <section>
+     <header>
+       <h2>ServiceWorkers more aweomeness</h2>
+     </header>
+       <pre>
+       <code>navigator.serviceWorker.whenReady().then(function(sw) {</code>
+       <code>  navigator.registerSync('syc contacts', {</code>
+       <code>    description: '',</code>
+       <code>    data: '',</code>
+       <code>    suggestedInterval: 86400 * 1000,</code>
+       <code>    repeating: true,</code>
+       <code>    urgent: false}</code>
+       <code>  }).then(successCb, errorCb);</code>
+       <code>});</code>
+       </pre>
+     <footer class="notes">
+       sync
+     </footer>
+   </section>
+  </div></div>
+
+  <div id="devtools" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>New and shiny tools!</h2>
+      </header>
+      <img src="pictures/devtools.png"
+           class="middle"
+           alt="devtools">
+      <footer class="notes">
+
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="yourtouch" class="slide"><div>
+    <section>
+      <header>
+        <h2>Help shaping the mobile web</h2>
+      </header>
+      <p>Be part of the future and <strong>start using the new APIS.</strong></p><p>Give your <strong>feedback</strong> and <strong>suggestions</strong> and contribute with your personal touch to the new evolution.</p>
+      <p><strong>Firefox OS</strong> comes with all the new goodies, run and start playing wit it!</p>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="awesome" class="slide cover w"><div>
+    <section>
+      <img src="pictures/awesome.jpg"
+           class="middle"
+           alt="Awesome">
+      <footer class="notes">
+
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="thanks" class="slide"><div>
+    <section>
+      <header>
+        <h2>Thanks</h2>
+      </header>
+      <img src="pictures/mozillaoverview/redpanda.jpg" class="right" alt="Red panda (Firefox)">
+      <ul class="nobull">
+        <li>Francisco Jordano</li>
+        <li>francisco@mozilla.com</li>
+        <li><a href="http://twitter.com/mepartoconmigo">@mepartoconmigo</a></li>
+        <li><strong>Slides</strong>: coming soon in your twitter feed</li>
+      </ul>
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/yortw/5798336827/">Photo by Yortw</a>
+      </small>
+
+    <footer class="notes">
+    </footer>
+
+    </section>
+  </div></div>
+<!--
+
+<div id="shout" class="slide shout"><div>
+  <section>
+    <header>
+      <h2>Shout slide</h2>
+    </header>
+    <footer class="notes">
+    </footer>
+  </section>
+</div></div>
+
+    <div id="shout" class="slide shout"><div>
+      <section>
+        <header>
+          <h2>Shout slide</h2>
+        </header>
+        <footer class="notes">
+        </footer>
+      </section>
+    </div></div>
+
+  <div id="oneline" class="slide oneline"><div>
+    <section>
+      <header>
+        <h2><strong>Imagine</strong>: One line slide</h2>
+      </header>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="imagesinfo" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image slide styles</h2>
+      </header>
+      <ul>
+        <li>Images are either backgrounds or part of the page.</li>
+        <li>Background images need a "cover" class on on the slide DIV.</li>
+        <li>In-page images need a class of "middle" to get centered</li>
+        <li>Adding "left" or "right" classes floats the image and you can use text next to them</li>
+        <li>Adding a "shadow" class adds a drop-shadow.</li>
+        <li>FIGURE elements around the image allow for a "swinging frame" effect</li>
+        <li>Images can also be videos or SVG. :)</li>
+      </ul>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="imageh" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Image slide (stretched horizontal)</h2>
+      </header>
+      <img src="pictures/templatedemos/phones.jpg"
+           class="middle"
+           alt="Firefox OS phones">
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/codepo8/9506545800/">
+          Image by Chris Heilmann
+        </a>
+      </small>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="imagev" class="slide cover h"><div>
+    <section>
+      <header>
+        <h2>Image slide (stretched vertical)</h2>
+      </header>
+      <img src="pictures/templatedemos/phones.jpg"
+           class="middle"
+           alt="Firefox OS phones">
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/codepo8/9506545800/">
+          Image by Chris Heilmann
+        </a>
+      </small>
+      <footer class="notes">
+        Introduce yourself, who you are and why you are the person to give that talk
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="imagemiddle" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image slide (centered, resized)</h2>
+      </header>
+      <img src="pictures/templatedemos/smallphones.jpg"
+           class="middle"
+           alt="Firefox OS phones">
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/codepo8/9506545800/">
+          Image by Chris Heilmann
+        </a>
+      </small>
+      <footer class="notes">
+        Introduce yourself, who you are and why you are the person to give that talk
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="imageright" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image slide (right)</h2>
+      </header>
+      <img src="pictures/templatedemos/smallphones.jpg"
+           class="right"
+           alt="Firefox OS phones">
+
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/codepo8/9506545800/">
+          Image by Chris Heilmann
+        </a>
+      </small>
+      <footer class="notes">
+        Introduce yourself, who you are and why you are the person to give that talk
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="imageleft" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image slide (left)</h2>
+      </header>
+      <img src="pictures/templatedemos/smallphones.jpg"
+           class="left"
+           alt="Firefox OS phones">
+
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/codepo8/9506545800/">
+          Image by Chris Heilmann
+        </a>
+      </small>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="imageshadow" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image slide (centered, shadow)</h2>
+      </header>
+      <img src="pictures/templatedemos/smallphones.jpg"
+           class="middle shadow"
+           alt="Firefox OS phones">
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/codepo8/9506545800/">
+          Image by Chris Heilmann
+        </a>
+      </small>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="imageframe" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image slide (framed)</h2>
+      </header>
+      <figure class="middle shadow frame">
+      <img src="pictures/templatedemos/smallphones.jpg"
+           alt="Firefox OS phones">
+      </figure>
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/codepo8/9506545800/">
+          Image by Chris Heilmann
+        </a>
+      </small>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="imageswing" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image slide (framed, swinging)</h2>
+      </header>
+      <figure class="middle shadow frame swing">
+      <img src="pictures/templatedemos/smallphones.jpg"
+           alt="Firefox OS phones">
+      </figure>
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/codepo8/9506545800/">
+          Image by Chris Heilmann
+        </a>
+      </small>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="imagegif" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image slide (GIF)</h2>
+      </header>
+      <img src="pictures/templatedemos/earthphases.gif"
+           alt="Earthphases" class="right" width="300">
+      <p>GIFs animate from the start when the slide shows.</p>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="videoswing" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image slide (video)</h2>
+      </header>
+      <video controls class="middle shadow">
+        <source src="pictures/templatedemos/wave.mp4" type="video/mp4"></source>
+        <source src="pictures/templatedemos/wave.webm" type="video/webm"></source>
+      </video>
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/codepo8/9506545800/">
+          Image by Chris Heilmann
+        </a>
+      </small>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="videoautoplay" class="slide autoplay"><div>
+    <section>
+      <header>
+        <h2>Image slide (video autoplay)</h2>
+      </header>
+      <video controls class="middle shadow">
+        <source src="pictures/templatedemos/wave.mp4" type="video/mp4"></source>
+        <source src="pictures/templatedemos/wave.webm" type="video/webm"></source>
+      </video>
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/codepo8/9506545800/">
+          Image by Chris Heilmann
+        </a>
+      </small>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+
+  <div id="listtypes" class="slide"><div>
+    <section>
+      <header>
+        <h2>List style types</h2>
+      </header>
+      <p>The following are the different kinds of list styles available to you. <strong>Always remember that bullets kill</strong> – both people and audiences. If people can read ahead of your narrative, they will. And you made yourself redundant as a speaker.</p>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="numbered" class="slide"><div>
+    <section>
+      <header>
+        <h2>Numbered list</h2>
+      </header>
+      <ol>
+        <li>Collect underpants</li>
+        <li>???</li>
+        <li>Profit</li>
+      </ol>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+ <div id="list" class="slide"><div>
+    <section>
+      <header>
+        <h2>Unordered List</h2>
+      </header>
+      <ul>
+        <li>Tigers</li>
+        <li>Elephants</li>
+        <li>Bears
+          <ul>
+            <li>Koalas</li>
+            <li>Polar</li>
+            <li>Panda</li>
+          </ul>
+        </li>
+        <li>Oh my&hellip;</li>
+      </ul>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+ <div id="orderedlist" class="slide"><div>
+    <section>
+      <header>
+        <h2>Ordered List</h2>
+      </header>
+      <ol>
+        <li>Tigers</li>
+        <li>Elephants</li>
+        <li>Bears
+          <ol>
+            <li>Koalas</li>
+            <li>Polar</li>
+            <li>Panda</li>
+          </ol>
+        </li>
+        <li>Oh my&hellip;</li>
+      </ol>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+ <div id="longlist" class="slide"><div>
+    <section>
+      <header>
+        <h2>Long List</h2>
+      </header>
+      <ol class="longlist">
+        <li>Tigers</li>
+        <li>Elephants</li>
+        <li>Bears
+          <ol>
+            <li>Koalas</li>
+            <li>Polar</li>
+            <li>Panda</li>
+          </ol>
+        </li>
+        <li>Hedgehogs</li>
+        <li>Opossums</li>
+        <li>Hyrax</li>
+        <li>Capybara</li>
+        <li>Oh my&hellip;</li>
+      </ol>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+ <div id="inlinelist" class="slide"><div>
+    <section>
+      <header>
+        <h2>Inline List</h2>
+      </header>
+      <ul class="inline">
+        <li>Tigers</li>
+        <li>Elephants</li>
+        <li>Bears</li>
+        <li>Hedgehogs</li>
+        <li>Opossums</li>
+        <li>Hyrax</li>
+        <li>Capybara</li>
+        <li>Oh my&hellip;</li>
+      </ul>
+      <footer class="notes">moo
+      </footer>
+    </section>
+ </div></div>
+
+ <div id="animatedlist" class="slide"><div>
+    <section>
+      <header>
+        <h2>Animated List</h2>
+      </header>
+      <ul class="inner">
+        <li class="active">Tigers</li>
+        <li>Elephants</li>
+        <li>Bears</li>
+        <li>Hedgehogs</li>
+        <li>Opossums</li>
+        <li>Hyrax</li>
+        <li>Capybara</li>
+        <li>Oh my&hellip;</li>
+      </ul>
+      <footer class="notes">
+      </footer>
+    </section>
+ </div></div>
+
+  <div id="onelinelist" class="slide"><div>
+    <section>
+      <header>
+        <h2>One line list</h2>
+      </header>
+      <ul class="oneline">
+        <li>Elephants</li>
+        <li>Aardvarks</li>
+        <li>Hedgehogs</li>
+        <li>Kittens</li>
+        <li>Puppies</li>
+      </ul>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="reallylonglist" class="slide"><div>
+    <section>
+      <header>
+        <h2>Long list</h2>
+      </header>
+      <ul class="lots">
+        <li>Elephants</li>
+        <li>Aardvarks</li>
+        <li>Hedgehogs</li>
+        <li>Kittens</li>
+        <li>Puppies</li>
+        <li>Axolotls</li>
+        <li>Elephants</li>
+        <li>Aardvarks</li>
+        <li>Hedgehogs</li>
+        <li>Kittens</li>
+        <li>Puppies</li>
+        <li>Axolotls</li>
+        <li>Elephants</li>
+        <li>Aardvarks</li>
+        <li>Hedgehogs</li>
+        <li>Kittens</li>
+        <li>Puppies</li>
+        <li>Axolotls</li>
+        <li>Elephants</li>
+        <li>Aardvarks</li>
+        <li>Hedgehogs</li>
+        <li>Kittens</li>
+        <li>Puppies</li>
+        <li>Axolotls</li>
+        <li>Elephants</li>
+        <li>Aardvarks</li>
+        <li>Hedgehogs</li>
+        <li>Kittens</li>
+        <li>Puppies</li>
+        <li>Axolotls</li>
+      </ul>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="codestyles" class="slide"><div>
+    <section>
+      <header>
+        <h2>Code styles</h2>
+      </header>
+      <p>Code is not automatically encoded and colour coded. The space you have for code is also limited. This is by design: <strong>presentations are not there to drench audiences with code</strong>. Switch to your editor if needed and link to live, maintained code so people don't copy+paste.</p>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+   <div id="codedemo" class="slide"><div>
+    <section>
+      <header>
+        <h2>code</h2>
+      </header>
+        <pre>
+        <code>var installapp = navigator.mozApps.install(manifestURL);</code>
+        <code>installapp.<mark>onsuccess</mark> = function(data) {</code>
+        <code>  // App is installed</code>
+        <code>};</code>
+        <code>installapp.<mark class="important">onerror</mark> = function() {</code>
+        <code> // App wasn't installed, info is in </code>
+        <code> // installapp.error.name</code>
+        <code>};</code>
+        </pre>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+   <div id="markupdemo" class="slide"><div>
+    <section>
+      <header>
+        <h2>Markup is encoded</h2>
+      </header>
+        <pre>
+        <code><p>Paragraph without encode</p></code>
+        <code>&lt;p&gt;Paragraph without encode&lt;/p&gt;</code>
+        <code></code>
+        </pre>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="livecode" class="slide"><div>
+    <section>
+      <header>
+        <h2>Live CSS code</h2>
+      </header>
+      <div id="demodiv"></div>
+<style contenteditable>#demodiv {
+  width: 200px;
+  height: 200px;
+  background: green;
+}</style>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="smoothlivecode" class="slide"><div>
+    <section>
+      <header>
+        <h2>Live CSS code (smooth)</h2>
+      </header>
+      <div id="demodiv2" class="smoothdemo"></div>
+<style contenteditable>#demodiv2 {
+  width: 200px;
+  height: 200px;
+  background: green;
+}</style>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="quotes" class="slide"><div>
+    <section>
+      <header>
+        <h2>Quote styles</h2>
+      </header>
+      <p>Quotes are a superb way to look clever and get more kudos for being in the know. Make sure you attribute them correctly and do not quote out of context.</p>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="simplequote" class="slide"><div>
+    <section>
+      <header>
+        <h2>Quote</h2>
+      </header>
+      <blockquote>
+        <p>The worst part of internet quotes is that you can never be sure that they are attributed correctly.</p>
+        <p class="byline">Benjamin Franklin</p>
+      </blockquote>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="longquote" class="slide"><div>
+    <section>
+      <header>
+        <h2>Long quote is long&hellip;</h2>
+      </header>
+      <blockquote class="lots">
+        But there's no doubt that, we went for this approach, <mark>we built this internal framework that we called Faceweb</mark>, which is basically this idea that we can take the infrastructure that we built out for pushing code everyday, not having to submit to an app store, building web code on the web stack that we have, and that we can translate that into mobile development. <mark>We just were never able to get the quality of it we wanted</mark>&hellip;
+      </blockquote>
+    <footer class="notes">
+      It seems the main failure was Facebook's approach and internal system creating HTML5 apps - not the technology itself.
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="thanks" class="slide"><div>
+    <section>
+      <header>
+        <h2>Thanks</h2>
+      </header>
+      <img src="pictures/mozillaoverview/redpanda.jpg" class="right" alt="Red panda (Firefox)">
+      <ul class="nobull">
+        <li>{name}</li>
+        <li>{title}</li>
+        <li>{<a href="http://twitter.com/">@twitter</a>}</li>
+        <li><strong>Slides</strong>: {slideurl}</li>
+      </ul>
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/yortw/5798336827/">Photo by Yortw</a>
+      </small>
+
+    <footer class="notes">
+    </footer>
+
+    </section>
+  </div></div>
+-->
+
+  <div class="progress"><div></div></div>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/video.js"></script>
+  <!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>
